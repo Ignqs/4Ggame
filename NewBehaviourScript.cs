@@ -12,7 +12,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     [Header("ground Check")]
     public float playerHeight;
-    public LyerMask whatIsGround;
+    public LayerMask whatIsGround;
     bool grounded;
 
     public Transform orientation;
